@@ -22,3 +22,6 @@
     background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/5.jpg"); }
   .dashboard .dashboard-img .dashboard-img6 {
     background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/3.jpg"); }
+
+.navbar {
+  height: 100px; }

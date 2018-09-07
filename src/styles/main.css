@@ -1,10 +1,13 @@
 .dashboard {
   background-color: #c5c5c5;
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 30px 0 50px 0;
+  overflow: hidden; }
+  .dashboard .dashboard-logo {
+    margin: 20px; }
   .dashboard .dashboard-img div {
     width: 600px;
     height: 500px;
@@ -22,3 +25,37 @@
     background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/5.jpg"); }
   .dashboard .dashboard-img .dashboard-img6 {
     background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/3.jpg"); }
+  .dashboard .home {
+    width: 90vw;
+    max-width: 900px;
+    height: auto;
+    background-color: #fff;
+    padding: 20px 25px;
+    margin: 50px 0 0 0; }
+    .dashboard .home .home-bio {
+      width: 80%;
+      margin: -10px auto 10px auto;
+      text-align: center;
+      line-height: 1.5;
+      font-size: 1.2rem; }
+    .dashboard .home .home-posts {
+      margin: 30px;
+      width: 300px;
+      height: auto; }
+      .dashboard .home .home-posts img {
+        width: 200px;
+        height: 200px; }
+  .dashboard .home-something {
+    width: 90vw;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px;
+    background-color: #eeb54a; }
+  .dashboard .home-footer {
+    width: 90vw;
+    max-width: 900px;
+    padding: 20px 25px;
+    text-align: center;
+    background-color: #fff; }

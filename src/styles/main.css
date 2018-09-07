@@ -1,0 +1,24 @@
+.dashboard {
+  background-color: #c5c5c5;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .dashboard .dashboard-img div {
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-position: center; }
+  .dashboard .dashboard-img .dashboard-img1 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd6.jpg"); }
+  .dashboard .dashboard-img .dashboard-img2 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd5.jpg"); }
+  .dashboard .dashboard-img .dashboard-img3 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd4.jpg"); }
+  .dashboard .dashboard-img .dashboard-img4 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd3.jpg"); }
+  .dashboard .dashboard-img .dashboard-img5 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd2.jpg"); }
+  .dashboard .dashboard-img .dashboard-img6 {
+    background-image: url("https://s3-us-west-1.amazonaws.com/personal-project-1989/Sigutes/asd1.jpg"); }

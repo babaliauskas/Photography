@@ -72,11 +72,11 @@
   background-color: gray;
   position: relative; }
   .navbar .navbar-bar .link {
-    display: none; }
+    visibility: hidden; }
   .navbar .navbar-bar .hamburger-icon {
     width: 40px;
     height: 40px;
-    margin-right: 300px; }
+    margin-left: 20px; }
 
 .navbar .navbar-dropdown {
   height: 60vh;
@@ -96,6 +96,8 @@
     display: flex;
     align-items: center;
     justify-content: center; }
+  .navbar .navbar-dropdown .link:hover {
+    background-color: white; }
 
 .navbar .hide-nav {
   transform: translate(-305px); }
@@ -104,7 +106,7 @@
   .navbar .navbar-bar .hamburger-icon {
     display: none; }
   .navbar .navbar-bar .link {
-    display: block; }
+    visibility: visible; }
   .navbar .navbar-dropdown {
     transform: translate(-305px); } }
 

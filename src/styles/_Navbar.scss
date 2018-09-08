@@ -13,13 +13,13 @@
         position: relative;
 
         .link {
-            display: none;
+            visibility: hidden;
         }
 
         .hamburger-icon {
             width: 40px;
             height: 40px;
-            margin-right: 300px;
+            margin-left: 20px;
         }
     }
 
@@ -43,6 +43,10 @@
             align-items: center;
             justify-content: center;
         }
+
+        .link:hover {
+            background-color: white;
+        }
     }
 
     .hide-nav {
@@ -61,7 +65,7 @@
             }
 
             .link {
-                display: block;
+                visibility: visible;
             }
         }
 

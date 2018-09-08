@@ -140,7 +140,7 @@
 
 @media (min-width: 700px) {
   .about-container {
-    width: 95%;
+    width: 90%;
     margin-top: 50px; }
   .about-content {
     margin-top: 5px;
@@ -152,8 +152,10 @@
       width: 60%; } }
 
 @media (min-width: 860px) {
+  .about-container {
+    width: 75%; }
   .about-content {
-    margin-top: 45px; } }
+    margin-top: 35px; } }
 
 * {
   margin: 0px;

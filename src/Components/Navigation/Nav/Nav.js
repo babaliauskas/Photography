@@ -17,23 +17,16 @@ class Nav extends Component {
 
     render () {
         return (
-            <div className="navbar">
-                <div className="navbar-bar">
-                    <div className="hamburger-icon" onClick={this.toggleNav}>
-                        <i className="fas fa-bars fa-3x"></i>
-                    </div>
-                    <Link className="link" to="/">Home</Link>
-                    <Link className="link" to="/about">About</Link>
-                    <Link className="link" to="/portfolio">Portfolio</Link>
-                    <Link className="link" to="/pricing">Pricing</Link>
-                    <Link className="link" to="/contact">Contact</Link>
-                </div>
-                <div className={this.state.showNav ? "navbar-dropdown" : "navbar-dropdown hide-nav"}>
-                    <Link className="link" to="/">Home</Link>
-                    <Link className="link" to="/about">About</Link>
-                    <Link className="link" to="/portfolio">Portfolio</Link>
-                    <Link className="link" to="/pricing">Pricing</Link>
-                    <Link className="link" to="/contact">Contact</Link>
+            <div>
+                <div className='logo'> Sigute </div>
+                <hr/>
+                <div className="navbar">
+                
+                    <Link className='nav-link' to="/">Home</Link>
+                    <Link className='nav-link' to="/about">About</Link>
+                    <Link className='nav-link' to="/portfolio">Portfolio</Link>
+                    <Link className='nav-link' to="/pricing">Pricing</Link>
+                    <Link className='nav-link' to="/contact">Contact</Link>
                 </div>
             </div>
         )

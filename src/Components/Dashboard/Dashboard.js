@@ -2,6 +2,8 @@ import React from 'react'
 import makeCarousel from 'react-reveal/makeCarousel';
 import styled, { css } from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import Nav from '../Navigation/Nav/Nav';
+import Footer from '../Footer/Footer';
 
 const Container = styled.div`
   border: 1px solid red;
@@ -17,7 +19,8 @@ const Carousel = makeCarousel(CarouselUI);
     render() {
         return (
             <div className='dashboard'>
-                <div className='dashboard-logo'> Sigute </div>
+                
+                <Nav />
                 <div className='dashboard-img'>
                 <Carousel defaultWait={5000} /*wait for 1000 milliseconds*/ >
                     <Fade duration={5000}>
@@ -62,16 +65,7 @@ const Carousel = makeCarousel(CarouselUI);
                         </div>
                     </div>
                 </section>
-
-                <section className='home-something'>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                </section>
-
-                <section className='home-footer'>
-                    &copy; Sigita Petruzis Photography | Maryland Photographer | Newborn | Maternity
-                </section>
+                <Footer/>
             </div>  
         )
     }

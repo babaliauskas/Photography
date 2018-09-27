@@ -2,6 +2,19 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
 class Nav extends Component {
+    constructor () {
+        super();
+        this.state = {
+            showNav: false
+        }
+    }
+
+    toggleNav = () => {
+        this.setState({
+            showNav: !this.state.showNav
+        })
+    }
+
     render () {
         return (
             <div>

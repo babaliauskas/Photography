@@ -11,8 +11,10 @@
     }
     .dashboard-img {
         div {
-            width: 600px;
-            height: 500px;
+            width: 90vw;
+            max-width: 950px;
+            min-width: 800px;
+            height: 600px;
             background-size: cover;
             background-position: center;
         }
@@ -41,7 +43,7 @@
         height: auto;
         background-color: #fff;
         padding: 20px 25px;
-        margin: 50px 0 0 0;
+        margin-top: 50px;
         .home-bio {
             width: 80%;
             margin: -10px auto 10px auto;
@@ -59,20 +61,5 @@
             }
         }
     }
-    .home-something {
-        width: 90vw;
-        max-width: 900px;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-        padding: 30px 25px;
-        background-color: rgb(238, 181, 74);
-    }
-    .home-footer {
-        width: 90vw;
-        max-width: 900px;
-        padding: 20px 25px;
-        text-align: center;
-        background-color: #fff;
-    }
+    
 }

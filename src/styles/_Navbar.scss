@@ -1,3 +1,17 @@
 .navbar {
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #c5c5c5;
+    .nav-link {
+        margin: 20px 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-link:hover {
+        color: rgb(235, 46, 46);
+    }
+}
+.logo {
+    background-color: #c5c5c5;
+    padding: 0 0 0 200px;
 }

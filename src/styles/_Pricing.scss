@@ -12,8 +12,12 @@
     img {
         width: 250px;
     }
+    img:hover {
+        cursor: pointer;
+    }
     h3:hover {
         color: gray;
+        cursor: pointer;
     }
 }
 

@@ -123,8 +123,11 @@
   align-items: center; }
   .pricing-photo img {
     width: 250px; }
+  .pricing-photo img:hover {
+    cursor: pointer; }
   .pricing-photo h3:hover {
-    color: gray; }
+    color: gray;
+    cursor: pointer; }
 
 .pricing-photo:hover {
   opacity: 0.7; }

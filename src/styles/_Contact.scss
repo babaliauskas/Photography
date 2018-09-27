@@ -1,0 +1,11 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+    div {
+        width: 50%;
+        margin: 0 10px;
+    }
+    .email-box {
+        width: 100%;
+    }
+}

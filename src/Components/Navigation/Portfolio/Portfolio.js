@@ -6,6 +6,8 @@ export default class Portfolio extends React.Component {
         return(
             <div>
                 <Nav/>
+
+                
             </div>
         )
     }

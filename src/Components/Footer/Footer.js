@@ -3,24 +3,14 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-        <section className='home-something'>
-                    <div> 
-                        <p>oldies</p> 
-                        <a href=""> bla </a>
-                    </div>
-
-                    <div>
-                        <p>let's connect</p>
-                        <div> 
-                            <a href="">F</a>
-                            <a href="">I</a> 
-                        </div>
-                    </div>
-                </section>
-
-                <section className='home-footer'>
-                    &copy; Sigita Petruzis Photography | Maryland Photographer | Newborn | Maternity
-                </section>
+            <section className='home-footer'>
+                <div> 
+                    let's connect
+                    <a href="https://www.facebook.com/psphotographybysigita/" target="_blank">F</a>
+                    <a href="https://instagram.com/photographybysigita?utm_source=ig_profile_share&igshid=9j2i3bef2e5i" target="_blank">I</a> 
+                </div>
+                &copy; Sigita Petruzis Photography | Maryland Photographer | Newborn | Maternity
+            </section>
         </div>
     )
 }
